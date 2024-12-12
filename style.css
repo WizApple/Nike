@@ -1,0 +1,409 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.homebackground{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.homebackground-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.homebackground img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+
+.header {
+    width: 100%;
+    background-color: rgba(244, 245, 246, 0);
+    height: 36px;
+    padding: 0px 48px;
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+}
+
+.left-header {
+    width: 50%;
+    height: 36px;
+    background-color: rgba(244, 245, 246, 0);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+}
+
+.left-header img{
+    height: 35px;
+}
+
+.right-header {
+    width: 50%;
+    height: 36px;
+    background-color: rgba(244, 245, 246, 0);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.fas {
+    font-family: Helvetica;
+    position: relative;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+    padding-right: 10px;
+    right: 70px;
+}
+
+.vertical-line {
+    position: absolute;
+    left: 100%;
+    height: 12px; 
+    border-right: 1px solid #fff;
+    top: 4px;
+}
+
+.help {
+    font-family: Helvetica;
+    position: relative;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+    padding-right: 10px;
+    right: 60px;
+}
+
+.joinus {
+    font-family: Helvetica;
+    position: relative;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+    padding-right: 10px;
+    right: 50px;
+}
+
+.signin {
+    font-family: Helvetica;
+    position: relative;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+    padding-right: 10px;
+    right: 40px;
+}
+
+.fas a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.help a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.joinus a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.signin a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.fas a:hover{
+    opacity: 50%;
+}
+
+.help a:hover{
+    opacity: 50%;
+}
+
+.joinus a:hover{
+    opacity: 50%;
+}
+
+.signin a:hover{
+    opacity: 50%;
+}
+
+.navigation{
+    width: 100%;
+    height: 41px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 1), 0px 8px 32px rgba(0, 0, 0, 1) ;
+    background-color: #fff;
+    z-index: 4;
+    position: relative;;
+    padding: 0px 48px;
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-left{
+    width: 33.33%;
+    height: 41px;
+    display: flex;
+    left: 0;
+    position: absolute;
+    justify-content: flex-start;
+    margin: 0 65px;
+}
+
+.navigation-right{
+    width: 33.33%;
+    height: 41px;
+    display: flex;
+    right: 0;
+    position: absolute;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+
+.navigation-middle{
+    width: 33.33%;
+    height: 41px;
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-family: Helvetica;
+    color: #000;
+}
+
+.New a{
+    font-family: Helvetica;
+    font-weight: 550;
+    text-decoration: none;
+    color: #000;
+}
+
+.Men a{
+    font-family: Helvetica;
+    font-weight: 550;
+    text-decoration: none;
+    color: #000;
+}
+
+.Women a{
+    font-family: Helvetica;
+    font-weight: 550;
+    text-decoration: none;
+    color: #000;
+}
+
+.Kids a{
+    font-family: Helvetica;
+    font-weight: 550;
+    text-decoration: none;
+    color: #000;
+}
+
+.Jordan a{
+    font-family: Helvetica;
+    font-weight: 550;
+    text-decoration: none;
+    color: #000;
+}
+
+.Sale a{
+    font-family: Helvetica;
+    font-weight: 550;
+    text-decoration: none;
+    color: #000;
+}
+
+.New a:hover{
+    text-decoration: underline;
+}
+
+.Men a:hover{
+    text-decoration: underline;
+}
+
+.Women a:hover{
+    text-decoration: underline;
+}
+
+.Kids a:hover{
+    text-decoration: underline;
+}
+
+.Jordan a:hover{
+    text-decoration: underline;
+}
+
+.Sale a:hover{
+    text-decoration: underline;
+}
+
+.navigation-right input{
+    background-color: #f0f2f4;
+    border-radius: 20px;
+    width: 200px;
+    height: 20px;
+    border: none;
+    text-align: center;
+    color: #000;
+    padding: 5px;
+    font-family: Helvetica;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.carticon img{
+    width: 35px;
+    height: 35px;
+    right: 80px;
+    top: 2px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.carticon:hover{
+    opacity: 50%;
+}
+
+.navigation-right input:hover{
+    background-color: #f0f0f2;
+}
+
+.offer{
+    font-family: HeLvetica;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 41px;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+
+.nike{
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 41px;
+    justify-content: center;
+    align-items: center;
+    top: 25%;
+}
+
+.nike img{
+    width: 500px;
+    height: 300px;
+    opacity: 70%;
+}
+
+.justin{
+    font-family: helvetica;
+    position: absolute;
+    display: flex;
+    z-index: 5;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 20px;
+    font: 30px;
+    opacity: 70%;
+}
+
+.wordmark{
+    font-family: Helvetica;
+    position: absolute;
+    display: flex;
+    z-index: 5;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: 50%;
+    font-size: 75px;
+    font-weight: 900;
+    opacity: 70%;
+}
+
+.wordmark1{
+    font-family: helvetica;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    z-index: 5;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    top: 65%;
+    width: 100%;
+    font: 30px;
+    opacity: 70%;
+}
+
+.wordmark2{
+    font-family: helvetica;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    z-index: 5;
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    top: 70%;
+    width: 100%;
+    font: 30px;
+    opacity: 70%;
+}
