@@ -489,21 +489,21 @@ body {
 }
 
 .s004 img{
-    width: 679px;
+    width: 50%;
     height: 466px;
     position: absolute;
     left: 0;
 }
 
 .s005 img{
-    width: 679px;
+    width: 50%;
     height: 466px;
     position: absolute;
     right: 0;
 }
 
 .s006 img{
-    width: 679px;
+    width: 50%;
     height: 466px;
     position: absolute;
     left: 0;
@@ -511,7 +511,7 @@ body {
 }
 
 .s007 img{
-    width: 679px;
+    width: 50%;
     height: 466px;
     position: absolute;
     right: 0;
