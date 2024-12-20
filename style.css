@@ -26,10 +26,8 @@ body {
 .homebackground-overlay{
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
     position: absolute;
-    top: 0;
-    left: 0;
     z-index: 2;
 }
 
@@ -287,10 +285,21 @@ body {
 }
 
 .carticon img{
-    width: 20px;
-    height: 2px;
-    right: 80px;
-    top: 5px;
+    width: 23px;
+    height: 23px;
+    right: 70px;
+    top: 10px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.favourites img{
+    width: 23px;
+    height: 23px;
+    right: 120px;
+    top: 10px;
     position: absolute;
     justify-content: center;
     align-items: center;
@@ -359,7 +368,6 @@ body {
     top: 50%;
     left: 20px;
     font: 30px;
-    opacity: 70%;
 }
 
 .wordmark{
@@ -375,7 +383,6 @@ body {
     top: 50%;
     font-size: 75px;
     font-weight: 900;
-    opacity: 70%;
 }
 
 .wordmark1{
@@ -391,7 +398,6 @@ body {
     top: 65%;
     width: 100%;
     font: 30px;
-    opacity: 70%;
 }
 
 .wordmark2{
@@ -490,21 +496,21 @@ body {
 
 .s004 img{
     width: 50%;
-    height: 466px;
+    height: 71%;
     position: absolute;
     left: 0;
 }
 
 .s005 img{
     width: 50%;
-    height: 466px;
+    height: 71%;
     position: absolute;
     right: 0;
 }
 
 .s006 img{
     width: 50%;
-    height: 466px;
+    height: 71%;
     position: absolute;
     left: 0;
     top: 71%;
@@ -512,7 +518,7 @@ body {
 
 .s007 img{
     width: 50%;
-    height: 466px;
+    height: 71%;
     position: absolute;
     right: 0;
     top: 71%;
